@@ -15,7 +15,7 @@ import { gemini15Flash } from '@genkit-ai/googleai';
 configureGenkit({
   plugins: [
     googleAI({
-      apiKey: process.env.GOOGLE_GENAI_API_KEY,
+      apiKey: process.env.GOOGLE_AI_API_KEY,
     }),
   ],
   logLevel: 'debug',
